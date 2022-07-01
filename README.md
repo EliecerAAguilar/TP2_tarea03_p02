@@ -1,7 +1,5 @@
 # Topicos Especiales 2
 ## Tarea #03
-### Problema #02
-
 
 <div id="badges">
     <a href="https://www.linkedin.com/in/eliecer-aguilar-507/">
