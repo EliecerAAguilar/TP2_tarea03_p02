@@ -17,7 +17,7 @@ function LLamar_a_shp2pgsql {
 		echo "La ruta es: $directorio"
     #entramos a la ruta con el comando cd
 		cd $directorio
-		echo "ingrese el nombre del archivo de referencia"
+		echo "ingrese el nombre del archivo de referencia sin la extension .shp"
 		read file_name_shp
 		echo "ingrese el nombre de la tabla a crear"
 		read table_name
