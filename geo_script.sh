@@ -24,9 +24,9 @@ function LLamar_a_shp2pgsql {
     #ingresamos los .shp en un .sql
 		shp2pgsql -i -s srid $file_name_shp.shp $table_name > $file_name_sql.sql
     #imprimimos la ruta donde estamos trabajando
-    	chmod 751 $file_name_sql.sql
-    	cd ..
-    	cd ..
+    chmod 751 $file_name_sql.sql
+    cd ..
+    cd ..
 		a=$(pwd)
     echo "Se ha insertado en $a/ARCHIVO_DB el $file_name_shp"
     #creamos un directorio o verificamos si existe
