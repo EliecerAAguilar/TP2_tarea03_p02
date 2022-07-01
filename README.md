@@ -27,6 +27,8 @@ utilizando la	herramienta	shp2sql de	PostgreSQL,	transformar	estos	shapefiles	en
 captura	de	pantalla del	script.
 Recuerde	para	la	llamada	de	shp2pgsql	es	como	se	muestra	a	continuación:
 ![comando_para_convertir_shape_files](comando_shp2psql.png)
+
+
 Donde	-i	indica	el	uso	de	entero	de	tipo	corto	(int4)	y	el	-s indica	el	uso	especifico	de	un	SRID	(en	este	caso	use	
 4326 que	es	el	standard	WGS84),	luego	se	pone	el	archivo	shapefile	de	referencia,	el	nombre	que	se	quiere	
 usar	para	la	tabla en	la	base	de	datos	y por	último al	archivo	donde	queremos	que	este	el	comando	SQL.
